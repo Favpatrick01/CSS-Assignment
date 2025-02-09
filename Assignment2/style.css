@@ -1,0 +1,85 @@
+/* START CSS RESET*/
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+/* END CSS RESET*/
+div.container{
+    border: 1px solid black;
+    margin-right: 650px;
+
+
+}
+div.box1{
+    margin-top: 80px;
+    border-bottom: 30px solid gray;
+    max-width: 500px;
+   padding-right: 20px;
+   
+    
+    
+}
+div.content1{
+     margin-top: 40px;
+     margin-bottom: 40px;
+     padding-left: 15px;
+}
+div.box2{
+   
+    border-bottom: 30px solid gray;
+    
+}
+div.content2{
+    margin-top: 18px;
+    margin-bottom: 40px;
+    padding-left: 15px;
+    max-width: 550px;
+}
+div.box2heading{
+    font-size: 11px;
+    padding-left: 15px;
+    
+}

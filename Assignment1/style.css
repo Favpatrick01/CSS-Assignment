@@ -1,0 +1,88 @@
+/* START CSS RESET*/
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+/* END CSS RESET*/
+body{
+    background-color:rgb(36, 36, 36);
+    border: 20px solid aliceblue;
+    height: 600px;
+}
+div.container{
+
+}
+
+div.headingpeeks{
+    background-color: rgb(192, 2, 113);
+    border: 1px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 200px;
+    font-size: 11px;
+    border-radius: 7px;
+    margin-left: 230px;
+    margin-top: 55px;
+    box-sizing: border-box;
+    font-size: 25px;
+    max-width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+div.content{
+    border: 1px solid black;
+    max-width: 600px;
+    border-radius: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    font-size: 30px;
+    margin-left: 120px;
+}
