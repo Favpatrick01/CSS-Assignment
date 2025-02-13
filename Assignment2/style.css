@@ -47,39 +47,77 @@
     isolation: isolate;
   }
 /* END CSS RESET*/
-div.container{
-    border: 1px solid black;
-    margin-right: 650px;
 
 
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  font-family: sans-serif;   
+  
+  
 }
-div.box1{
-    margin-top: 80px;
-    border-bottom: 30px solid gray;
-    max-width: 500px;
-   padding-right: 20px;
-   
+.box{
+  height: 240px;
+  width: 600px;
+  border: 1px solid grey;
+  font-size: 14px;
+ 
+  
+}
+.box:nth-child(1){
+  background-color: whitesmoke ;
+  padding-top: 30px;
+  padding-left: 20px;
+  
+  
+  
+
+}
+.box:nth-child(2){
+  background-color: gray;
+  height: 50px;
+}
+.box:nth-child(3){
+  background-color: whitesmoke;
+  height: 220px;
+  padding-left: 20px;
+
+ 
+  
+}
+.box:nth-child(4){
+  background-color: gray;
+  height: 50px;
+  
+  
+}
+.box:nth-child(5){
+  background-color: whitesmoke;
+  height: 60px;
+  
+}
+#headies{
+  display: flex;
+  justify-content: flex-start;
+  align-content:center;
+  background-color: rgb(209, 162, 8);;
+  height: 30px;
+  width: 250px;
+  margin-top: 5px;
+  font-size: 9px;
+  padding-top: 5px;
+  padding-left: 5px;
+ 
     
-    
+
 }
-div.content1{
-     margin-top: 40px;
-     margin-bottom: 40px;
-     padding-left: 15px;
+span{
+  color: rgb(15, 163, 77);
 }
-div.box2{
-   
-    border-bottom: 30px solid gray;
-    
-}
-div.content2{
-    margin-top: 18px;
-    margin-bottom: 40px;
-    padding-left: 15px;
-    max-width: 550px;
-}
-div.box2heading{
-    font-size: 11px;
-    padding-left: 15px;
-    
+h1{
+  padding-bottom: 20px;
 }
